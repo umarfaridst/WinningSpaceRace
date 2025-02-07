@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2026ad930b92578f12ec821e055078ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2026ad930b92578f12ec821e055078ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2026ad930b92578f12ec821e055078ba = L.map(
+                "map_2026ad930b92578f12ec821e055078ba",
+                {
+                    center: [29.97806, -91.48668],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f9e0c1fa5160eb1f89728afc3218fdf4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f9e0c1fa5160eb1f89728afc3218fdf4.addTo(map_2026ad930b92578f12ec821e055078ba);
+        
+    
+            var marker_f8bd6e01ae5305c33ffddf55eca1214b = L.marker(
+                [28.5623, -80.5774],
+                {
+}
+            ).addTo(map_2026ad930b92578f12ec821e055078ba);
+        
+    
+            var icon_0bf7696ec21784897f40726cea23719c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f8bd6e01ae5305c33ffddf55eca1214b.setIcon(icon_0bf7696ec21784897f40726cea23719c);
+        
+    
+        var popup_60f96459879ba0d2210892aea59e0913 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d65efd16dc8bbb2bc3258c37b3dced35 = $(`<div id="html_d65efd16dc8bbb2bc3258c37b3dced35" style="width: 100.0%; height: 100.0%;">Site A - Railway (5 km)</div>`)[0];
+                popup_60f96459879ba0d2210892aea59e0913.setContent(html_d65efd16dc8bbb2bc3258c37b3dced35);
+            
+        
+
+        marker_f8bd6e01ae5305c33ffddf55eca1214b.bindPopup(popup_60f96459879ba0d2210892aea59e0913)
+        ;
+
+        
+    
+    
+            var marker_15c45327fc549cabcd1c378d49a01451 = L.marker(
+                [34.6328, -120.6108],
+                {
+}
+            ).addTo(map_2026ad930b92578f12ec821e055078ba);
+        
+    
+            var icon_07f262a01183092cb93f3a7123e9502e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15c45327fc549cabcd1c378d49a01451.setIcon(icon_07f262a01183092cb93f3a7123e9502e);
+        
+    
+        var popup_48e9d95c430a2e37789ad2e140e98f31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e750b2522eaa9e86003e5d35471d0d5 = $(`<div id="html_5e750b2522eaa9e86003e5d35471d0d5" style="width: 100.0%; height: 100.0%;">Site B - Highway (10 km)</div>`)[0];
+                popup_48e9d95c430a2e37789ad2e140e98f31.setContent(html_5e750b2522eaa9e86003e5d35471d0d5);
+            
+        
+
+        marker_15c45327fc549cabcd1c378d49a01451.bindPopup(popup_48e9d95c430a2e37789ad2e140e98f31)
+        ;
+
+        
+    
+    
+            var marker_ef7f729284e3645fcb9d0dce60c1733a = L.marker(
+                [28.5721, -80.5853],
+                {
+}
+            ).addTo(map_2026ad930b92578f12ec821e055078ba);
+        
+    
+            var icon_830490dd4226a5586247afdd8a18cb9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ef7f729284e3645fcb9d0dce60c1733a.setIcon(icon_830490dd4226a5586247afdd8a18cb9d);
+        
+    
+        var popup_21d94302310755259cd13275d6002750 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be73f8d4c37a9a4dde4ad3550c59ad94 = $(`<div id="html_be73f8d4c37a9a4dde4ad3550c59ad94" style="width: 100.0%; height: 100.0%;">CCA Site C - Coastline (2 km)</div>`)[0];
+                popup_21d94302310755259cd13275d6002750.setContent(html_be73f8d4c37a9a4dde4ad3550c59ad94);
+            
+        
+
+        marker_ef7f729284e3645fcb9d0dce60c1733a.bindPopup(popup_21d94302310755259cd13275d6002750)
+        ;
+
+        
+    
+    
+            var marker_7d022a81f0fb765873c9075887816493 = L.marker(
+                [29.5597, -95.0831],
+                {
+}
+            ).addTo(map_2026ad930b92578f12ec821e055078ba);
+        
+    
+            var icon_1d6272319dfecfc2ef023eb4beef76eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d022a81f0fb765873c9075887816493.setIcon(icon_1d6272319dfecfc2ef023eb4beef76eb);
+        
+    
+        var popup_274dfb78db3b1f8e8fb5776a3d585b09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e99cde0eac2e5cf8ab367fb3ca14b5d = $(`<div id="html_2e99cde0eac2e5cf8ab367fb3ca14b5d" style="width: 100.0%; height: 100.0%;">Site D - Railway (7 km)</div>`)[0];
+                popup_274dfb78db3b1f8e8fb5776a3d585b09.setContent(html_2e99cde0eac2e5cf8ab367fb3ca14b5d);
+            
+        
+
+        marker_7d022a81f0fb765873c9075887816493.bindPopup(popup_274dfb78db3b1f8e8fb5776a3d585b09)
+        ;
+
+        
+    
+    
+            var marker_ca603f85bf794e0c71d8519360742032 = L.marker(
+                [28.5634, -80.5768],
+                {
+}
+            ).addTo(map_2026ad930b92578f12ec821e055078ba);
+        
+    
+            var icon_17ea41dd0b87e4b7526e9f5c2bc3f0dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca603f85bf794e0c71d8519360742032.setIcon(icon_17ea41dd0b87e4b7526e9f5c2bc3f0dd);
+        
+    
+        var popup_4a294c827cba042007ce35a6d3fbae8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ae8d42921abcb11fa025f165fac0582 = $(`<div id="html_7ae8d42921abcb11fa025f165fac0582" style="width: 100.0%; height: 100.0%;">CCA Site E - Highway (8 km)</div>`)[0];
+                popup_4a294c827cba042007ce35a6d3fbae8e.setContent(html_7ae8d42921abcb11fa025f165fac0582);
+            
+        
+
+        marker_ca603f85bf794e0c71d8519360742032.bindPopup(popup_4a294c827cba042007ce35a6d3fbae8e)
+        ;
+
+        
+    
+</script>
+</html>
